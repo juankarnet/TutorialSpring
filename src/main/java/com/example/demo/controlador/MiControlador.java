@@ -30,6 +30,11 @@ public class MiControlador{
 		return "AdiosMundo";
 	}
 	
+	@RequestMapping("login")
+	String login(ModelMap mp){
+		return "login";
+	}
+	
 //	@RequestMapping("/error")
 //	String errorHandler(){
 //		return "error";
