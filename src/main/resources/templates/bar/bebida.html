@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bebida</title>
+</head>
+<body><br/>
+    <b>Nombre:</b>
+    <span th:text="${bebida.nombre}"></span><br/>
+ 
+    <b>Marca:</b>
+    <span th:text="${bebida.marca}"></span><br/>
+ 
+    <b>Precio:</b>
+    <span th:text="${bebida.precio}"></span><br/>
+ 
+    <br/>
+    <a th:href="@{'/hola'}">Volver</a>
+</body>
+</html>

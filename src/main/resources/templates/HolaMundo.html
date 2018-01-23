@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Hola mundo</title>
+</head>
+<body>
+
+<h2 th:text="${textoHola}"></h2>
+
+<a th:href="@{'/bar/listaBebidas'}">lista Bebidas</a>
+
+<a th:href="@{'/bar/ListaJsonHTML'}">lista Bebidas JSON</a>
+
+<a th:href="@{'/bar/refresco'}">Refresco</a>
+
+<a th:href="@{'/bar/cerveza'}">Cerveza</a>
+
+<a th:href="@{'/adios'}">Volver</a>
+
+</body>
+</html>
